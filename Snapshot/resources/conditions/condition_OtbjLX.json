@@ -1,0 +1,7 @@
+{
+  "resourceName": "when_$searchHub_is_\"mySpeedbit\"_OtbjLX",
+  "parents": {},
+  "model": {
+    "definition": "when $searchHub is \"mySpeedbit\""
+  }
+}

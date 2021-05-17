@@ -1,0 +1,20 @@
+{
+  "resourceName": "mySpeedbit_d6nZXq",
+  "parents": {},
+  "model": {
+    "commonFilter": "(originLevel1=~'speedbit-community-enterprise' OR originLevel1=~'mySpeedbit')",
+    "commandLineParameters": [
+      "--conf",
+      "coveo.drill.filterFields.0="
+    ],
+    "intervalUnit": "DAY",
+    "viewEventFilter": "",
+    "exportPeriod": "P3M",
+    "modelName": "9e46381c_bcd6_41e2_b382_325adaac4db2",
+    "searchEventFilter": "",
+    "modelDisplayName": "mySpeedbit",
+    "customEventFilter": "",
+    "engineId": "topclicks",
+    "intervalTime": 1
+  }
+}

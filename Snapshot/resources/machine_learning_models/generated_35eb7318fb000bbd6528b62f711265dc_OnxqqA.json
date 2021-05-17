@@ -1,0 +1,21 @@
+{
+  "resourceName": "generated_35eb7318fb000bbd6528b62f711265dc_OnxqqA",
+  "parents": {},
+  "model": {
+    "commonFilter": "",
+    "commandLineParameters": [
+      "--conf",
+      "coveo.drill.filterFields.0="
+    ],
+    "intervalUnit": "WEEK",
+    "exportOffset": "PT0S",
+    "viewEventFilter": "",
+    "exportPeriod": "P3M",
+    "modelName": "generated_35eb7318fb000bbd6528b62f711265dc",
+    "searchEventFilter": "",
+    "modelDisplayName": "generated_35eb7318fb000bbd6528b62f711265dc",
+    "customEventFilter": "",
+    "engineId": "querysuggest",
+    "intervalTime": 1
+  }
+}

@@ -1,0 +1,110 @@
+[
+    {
+        "resourceName": "alias_\"floors\",_\"stairs\"_ujW21z",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "feature": "thesaurus",
+            "detailed": {
+                "sub-feature": "alias",
+                "from": [
+                    "floors",
+                    "stairs"
+                ]
+            },
+            "ready": false,
+            "description": "",
+            "definition": "alias \"floors\", \"stairs\"",
+            "childrenCount": 0
+        }
+    },
+    {
+        "resourceName": "expand_\"pair\"_to_\"bluetooth\"_gZhnNn",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "feature": "thesaurus",
+            "detailed": {
+                "sub-feature": "expand",
+                "from": [
+                    "pair"
+                ],
+                "to": [
+                    "bluetooth"
+                ]
+            },
+            "ready": false,
+            "description": "",
+            "definition": "expand \"pair\" to \"bluetooth\"",
+            "childrenCount": 0
+        }
+    },
+    {
+        "resourceName": "expand_\"phone\"_to_\"iphone\"_9gnYg5",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "feature": "thesaurus",
+            "detailed": {
+                "sub-feature": "expand",
+                "from": [
+                    "phone"
+                ],
+                "to": [
+                    "iphone"
+                ]
+            },
+            "ready": false,
+            "description": "",
+            "definition": "expand \"phone\" to \"iphone\"",
+            "childrenCount": 0
+        }
+    },
+    {
+        "resourceName": "expand_\"watch\"_to_\"blaze\"_SU7iRd",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "feature": "thesaurus",
+            "detailed": {
+                "sub-feature": "expand",
+                "from": [
+                    "watch"
+                ],
+                "to": [
+                    "blaze"
+                ]
+            },
+            "ready": false,
+            "description": "",
+            "definition": "expand \"watch\" to \"blaze\"",
+            "childrenCount": 0
+        }
+    },
+    {
+        "resourceName": "replace_\"heartrate\"_to_\"heart_rate\"_Mh673X",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "feature": "thesaurus",
+            "detailed": {
+                "sub-feature": "replace",
+                "from": [
+                    "heartrate"
+                ],
+                "to": [
+                    "heart rate"
+                ]
+            },
+            "ready": false,
+            "description": "",
+            "definition": "replace \"heartrate\" to \"heart rate\"",
+            "childrenCount": 0
+        }
+    }
+]

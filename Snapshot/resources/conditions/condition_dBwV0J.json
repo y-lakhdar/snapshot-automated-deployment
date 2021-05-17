@@ -1,0 +1,8 @@
+{
+  "resourceName": "when_$context[UserRole]_is_\"new-customer\"_dBwV0J",
+  "parents": {},
+  "model": {
+    "description": "",
+    "definition": "when $context[UserRole] is \"new-customer\""
+  }
+}

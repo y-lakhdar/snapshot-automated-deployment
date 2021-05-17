@@ -1,0 +1,160 @@
+[
+    {
+        "resourceName": "execute_notify(\"cancel_subscription\")_kmeykq",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+            "parent": {
+                "id": "{{ QUERY_PIPELINE_CONDITION.when_$query_contains_\"cancel\"_mzrcC8 }}",
+                "description": "",
+                "definition": "when $query contains \"cancel\"",
+                "detailed": {
+                    "condition": {
+                        "operator": "contains",
+                        "left": {
+                            "object": "query"
+                        },
+                        "right": "cancel"
+                    }
+                }
+            },
+            "condition": {
+                "id": "{{ QUERY_PIPELINE_CONDITION.when_$query_contains_\"cancel\"_mzrcC8 }}",
+                "description": "",
+                "definition": "when $query contains \"cancel\"",
+                "detailed": {
+                    "condition": {
+                        "operator": "contains",
+                        "left": {
+                            "object": "query"
+                        },
+                        "right": "cancel"
+                    }
+                }
+            },
+            "feature": "trigger",
+            "detailed": {
+                "type": "execute",
+                "content": {
+                    "name": "notify",
+                    "params": [
+                        "cancel subscription"
+                    ]
+                }
+            },
+            "ready": false,
+            "description": "",
+            "definition": "execute notify(\"cancel subscription\")",
+            "childrenCount": 0
+        }
+    },
+    {
+        "resourceName": "execute_questionAnswering()_KYBte2",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+            "parent": {
+                "id": "{{ QUERY_PIPELINE_CONDITION.when_(_$query_contains_\"How_to_begin_working_out\"_or_$query_contains_\"How_do_I_workout\"_or_$query_contains_\"How_do_I_begin_workout\"_or_$query_contains_\"How_do_I_begin_working_out\"_)_KvrI2w }}",
+                "description": "",
+                "definition": "when ( $query contains \"How to begin working out\" or $query contains \"How do I workout\" or $query contains \"How do I begin workout\" or $query contains \"How do I begin working out\" )",
+                "detailed": {
+                    "condition": {
+                        "operator": "or",
+                        "left": {
+                            "operator": "contains",
+                            "left": {
+                                "object": "query"
+                            },
+                            "right": "How to begin working out"
+                        },
+                        "right": {
+                            "operator": "or",
+                            "left": {
+                                "operator": "contains",
+                                "left": {
+                                    "object": "query"
+                                },
+                                "right": "How do I workout"
+                            },
+                            "right": {
+                                "operator": "or",
+                                "left": {
+                                    "operator": "contains",
+                                    "left": {
+                                        "object": "query"
+                                    },
+                                    "right": "How do I begin workout"
+                                },
+                                "right": {
+                                    "operator": "contains",
+                                    "left": {
+                                        "object": "query"
+                                    },
+                                    "right": "How do I begin working out"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "condition": {
+                "id": "{{ QUERY_PIPELINE_CONDITION.when_(_$query_contains_\"How_to_begin_working_out\"_or_$query_contains_\"How_do_I_workout\"_or_$query_contains_\"How_do_I_begin_workout\"_or_$query_contains_\"How_do_I_begin_working_out\"_)_KvrI2w }}",
+                "description": "",
+                "definition": "when ( $query contains \"How to begin working out\" or $query contains \"How do I workout\" or $query contains \"How do I begin workout\" or $query contains \"How do I begin working out\" )",
+                "detailed": {
+                    "condition": {
+                        "operator": "or",
+                        "left": {
+                            "operator": "contains",
+                            "left": {
+                                "object": "query"
+                            },
+                            "right": "How to begin working out"
+                        },
+                        "right": {
+                            "operator": "or",
+                            "left": {
+                                "operator": "contains",
+                                "left": {
+                                    "object": "query"
+                                },
+                                "right": "How do I workout"
+                            },
+                            "right": {
+                                "operator": "or",
+                                "left": {
+                                    "operator": "contains",
+                                    "left": {
+                                        "object": "query"
+                                    },
+                                    "right": "How do I begin workout"
+                                },
+                                "right": {
+                                    "operator": "contains",
+                                    "left": {
+                                        "object": "query"
+                                    },
+                                    "right": "How do I begin working out"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "feature": "trigger",
+            "detailed": {
+                "type": "execute",
+                "content": {
+                    "name": "questionAnswering",
+                    "params": []
+                }
+            },
+            "ready": false,
+            "description": "",
+            "definition": "execute questionAnswering()",
+            "childrenCount": 0
+        }
+    }
+]

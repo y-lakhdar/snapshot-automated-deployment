@@ -1,0 +1,8 @@
+{
+  "resourceName": "when_$context_[subject]_contains_\"Walking_dead_\"_0aUPUu",
+  "parents": {},
+  "model": {
+    "description": "",
+    "definition": "when $context [subject] contains \"Walking dead \""
+  }
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "resourceName": "filter_cq_`@source==(\"Atlassian_SpeedBit\",_\"Box_Speedbit\",_\"Community\",_\"Community\",_\"Help_Section\",_\"http://www.fitbit.com/\",_\"Jira_SpeedBit\",_\"Salesforce_Content\",_\"Sharepoint_Speedbit\",_\"Speedbit-Enterprise\",_\"Youtube_SpeedBit\")`_NsGBq5",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+            "feature": "filter",
+            "detailed": {
+                "expressions": [
+                    "@source==(\"Atlassian SpeedBit\", \"Box Speedbit\", \"Community\", \"Community\", \"Help Section\", \"http://www.fitbit.com/\", \"Jira SpeedBit\", \"Salesforce Content\", \"Sharepoint Speedbit\", \"Speedbit-Enterprise\", \"Youtube SpeedBit\")"
+                ]
+            },
+            "ready": false,
+            "description": "",
+            "definition": "filter cq `@source==(\"Atlassian SpeedBit\", \"Box Speedbit\", \"Community\", \"Community\", \"Help Section\", \"http://www.fitbit.com/\", \"Jira SpeedBit\", \"Salesforce Content\", \"Sharepoint Speedbit\", \"Speedbit-Enterprise\", \"Youtube SpeedBit\")`",
+            "childrenCount": 0
+        }
+    },
+    {
+        "resourceName": "filter_cq_`NOT_@author==\"Kiley_Pratt\"`_JwzdUb",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+            "feature": "filter",
+            "detailed": {
+                "expressions": [
+                    "NOT @author==\"Kiley Pratt\""
+                ]
+            },
+            "ready": false,
+            "description": "",
+            "definition": "filter cq `NOT @author==\"Kiley Pratt\"`",
+            "childrenCount": 0
+        }
+    },
+    {
+        "resourceName": "filter_cq_`NOT_@confspacekey==(\"SPEEDT\")`_GIusiD",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+            "feature": "filter",
+            "detailed": {
+                "expressions": [
+                    "NOT @confspacekey==(\"SPEEDT\")"
+                ]
+            },
+            "ready": false,
+            "description": "",
+            "definition": "filter cq `NOT @confspacekey==(\"SPEEDT\")`",
+            "childrenCount": 0
+        }
+    },
+    {
+        "resourceName": "filter_cq_`NOT_@sfrecordtypename==\"Parts\"`_mAdSkh",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+            "feature": "filter",
+            "detailed": {
+                "expressions": [
+                    "NOT @sfrecordtypename==\"Parts\""
+                ]
+            },
+            "ready": false,
+            "description": "",
+            "definition": "filter cq `NOT @sfrecordtypename==\"Parts\"`",
+            "childrenCount": 0
+        }
+    },
+    {
+        "resourceName": "filter_cq_`NOT_@uri=\"Speedbit_-_IT\"`_jXuDb0",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+            "feature": "filter",
+            "detailed": {
+                "expressions": [
+                    "NOT @uri=\"Speedbit - IT\""
+                ]
+            },
+            "ready": false,
+            "description": "",
+            "definition": "filter cq `NOT @uri=\"Speedbit - IT\"`",
+            "childrenCount": 0
+        }
+    }
+]

@@ -1,25 +1,25 @@
-      {
-        "resourceName": "confspacekey_5CBY1Y",
-        "parents": {},
-        "model": {
-          "dateFormat": "",
-          "includeInQuery": true,
-          "hierarchicalFacet": false,
-          "mergeWithLexicon": false,
-          "description": "The key of the Confluence space.",
-          "useCacheForComputedFacet": false,
-          "sort": false,
-          "type": "STRING",
-          "smartDateFacet": false,
-          "multiValueFacet": false,
-          "multiValueFacetTokenizers": ";",
-          "useCacheForNestedQuery": false,
-          "name": "confspacekey",
-          "stemming": false,
-          "includeInResults": true,
-          "ranking": false,
-          "useCacheForSort": false,
-          "facet": true,
-          "useCacheForNumericQuery": false
-        }
-      }
+{
+  "resourceName": "confspacekey_5CBY1Y",
+  "parents": {},
+  "model": {
+    "dateFormat": "",
+    "includeInQuery": true,
+    "hierarchicalFacet": false,
+    "mergeWithLexicon": false,
+    "description": "The key of the Confluence space.",
+    "useCacheForComputedFacet": false,
+    "sort": false,
+    "type": "STRING",
+    "smartDateFacet": false,
+    "multiValueFacet": false,
+    "multiValueFacetTokenizers": ";",
+    "useCacheForNestedQuery": false,
+    "name": "confspacekey",
+    "stemming": false,
+    "includeInResults": true,
+    "ranking": false,
+    "useCacheForSort": false,
+    "facet": true,
+    "useCacheForNumericQuery": false
+  }
+}

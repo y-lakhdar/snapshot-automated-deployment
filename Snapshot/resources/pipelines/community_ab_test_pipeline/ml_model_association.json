@@ -1,0 +1,108 @@
+[
+    {
+        "resourceName": "ART_-_SN_eT92tz",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "enableWordCompletion": false,
+            "matchAdvancedExpression": true,
+            "modelId": "{{ ML_MODEL.ART_-_SN_rIHPQx }}",
+            "useAdvancedConfiguration": false,
+            "description": "",
+            "maxRecommendations": 5,
+            "matchBasicExpression": false,
+            "rankingModifier": 250,
+            "exclusive": false,
+            "cacheMaximumAge": "PT10S",
+            "intelligentTermDetection": false,
+            "customQueryParameters": {}
+        }
+    },
+    {
+        "resourceName": "CommunityDNE_l8qZIQ",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "enableWordCompletion": false,
+            "matchAdvancedExpression": false,
+            "modelId": "{{ ML_MODEL.CommunityDNE_5Av97q }}",
+            "useAdvancedConfiguration": false,
+            "maxRecommendations": 0,
+            "matchBasicExpression": false,
+            "rankingModifier": 50,
+            "exclusive": false,
+            "cacheMaximumAge": "PT10S",
+            "intelligentTermDetection": false,
+            "customQueryParameters": {
+                "facetOrdering": {
+                    "isEnabled": true
+                },
+                "facetValueOrdering": {
+                    "isEnabled": true
+                },
+                "rankingBoost": {
+                    "isEnabled": false
+                }
+            }
+        }
+    },
+    {
+        "resourceName": "default-model_shiEcK",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "enableWordCompletion": false,
+            "matchAdvancedExpression": true,
+            "modelId": "{{ ML_MODEL.default-model_8qTxAb }}",
+            "useAdvancedConfiguration": false,
+            "maxRecommendations": 5,
+            "matchBasicExpression": false,
+            "rankingModifier": 250,
+            "exclusive": false,
+            "cacheMaximumAge": "PT10S",
+            "intelligentTermDetection": false
+        }
+    },
+    {
+        "resourceName": "generated_35eb7318fb000bbd6528b62f711265dc_WHgXDE",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "enableWordCompletion": false,
+            "matchAdvancedExpression": false,
+            "modelId": "{{ ML_MODEL.generated_35eb7318fb000bbd6528b62f711265dc_OnxqqA }}",
+            "useAdvancedConfiguration": false,
+            "description": "",
+            "maxRecommendations": 10,
+            "matchBasicExpression": false,
+            "rankingModifier": 0,
+            "exclusive": false,
+            "cacheMaximumAge": "PT10S",
+            "intelligentTermDetection": false,
+            "customQueryParameters": {}
+        }
+    },
+    {
+        "resourceName": "mySpeedbit_zg7Xg8",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "enableWordCompletion": false,
+            "matchAdvancedExpression": true,
+            "modelId": "{{ ML_MODEL.mySpeedbit_d6nZXq }}",
+            "useAdvancedConfiguration": false,
+            "maxRecommendations": 5,
+            "condition": "{{ QUERY_PIPELINE_CONDITION.when_$searchHub_is_\"mySpeedbit\"_OtbjLX }}",
+            "matchBasicExpression": false,
+            "rankingModifier": 250,
+            "exclusive": false,
+            "cacheMaximumAge": "PT10S",
+            "intelligentTermDetection": false
+        }
+    }
+]

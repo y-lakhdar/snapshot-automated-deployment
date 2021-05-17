@@ -1,0 +1,17 @@
+{
+  "resourceName": "default-model_8qTxAb",
+  "parents": {},
+  "model": {
+    "commonFilter": "",
+    "commandLineParameters": [],
+    "intervalUnit": "WEEK",
+    "exportOffset": "P1D",
+    "exportPeriod": "P3M",
+    "modelName": "generated_290c06d003169650be0797a5d073f2a5",
+    "searchEventFilter": "",
+    "modelDisplayName": "default-model",
+    "customEventFilter": "",
+    "engineId": "topclicks",
+    "intervalTime": 1
+  }
+}

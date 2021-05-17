@@ -1,0 +1,8 @@
+{
+  "resourceName": "when_(_$searchHub_is_\"x_searchpage_speedbit\"_or_$searchHub_is_\"speedbit-community-enterprise\"_or_$searchHub_is_\"mySpeedbit\"_or_$searchHub_is_\"communityfreesearch\"_or_$searchHub_is_\"speedbitenterprisesearch\"_)_hT4RvS",
+  "parents": {},
+  "model": {
+    "description": "",
+    "definition": "when ( $searchHub is \"x_searchpage_speedbit\" or $searchHub is \"speedbit-community-enterprise\" or $searchHub is \"mySpeedbit\" or $searchHub is \"communityfreesearch\" or $searchHub is \"speedbitenterprisesearch\" )"
+  }
+}

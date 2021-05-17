@@ -1,0 +1,8 @@
+{
+  "resourceName": "when_(_$context_[demointerests]_contains_\"Blaze\"_)_hIoWnS",
+  "parents": {},
+  "model": {
+    "description": "User's implicit (e.g. inferred thru visits to product page) or explicit (e.g. register specific products) behavior indicates which device(s) should be used to influence most relevant results.",
+    "definition": "when ( $context [demointerests] contains \"Blaze\" )"
+  }
+}

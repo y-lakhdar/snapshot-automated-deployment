@@ -1,0 +1,94 @@
+[
+    {
+        "resourceName": "override_query_partialMatch:true_OcLsG3",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+            "feature": "queryParamOverride",
+            "detailed": {
+                "partialMatch": true
+            },
+            "ready": false,
+            "description": "",
+            "definition": "override query partialMatch:true",
+            "childrenCount": 0
+        }
+    },
+    {
+        "resourceName": "override_query_partialMatchKeywords:3_NIto8H",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+            "feature": "queryParamOverride",
+            "detailed": {
+                "partialMatchKeywords": 3
+            },
+            "ready": false,
+            "description": "",
+            "definition": "override query partialMatchKeywords:3",
+            "childrenCount": 0
+        }
+    },
+    {
+        "resourceName": "override_query_partialMatchThreshold:\"1\"_s7p7NH",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+            "parent": {
+                "id": "{{ QUERY_PIPELINE_CONDITION.when_$originalQuery_contains_\"rfp\"_PE1Wxj }}",
+                "description": "",
+                "definition": "when $originalQuery contains \"rfp\"",
+                "detailed": {
+                    "condition": {
+                        "operator": "contains",
+                        "left": {
+                            "object": "originalQuery"
+                        },
+                        "right": "rfp"
+                    }
+                }
+            },
+            "condition": {
+                "id": "{{ QUERY_PIPELINE_CONDITION.when_$originalQuery_contains_\"rfp\"_PE1Wxj }}",
+                "description": "",
+                "definition": "when $originalQuery contains \"rfp\"",
+                "detailed": {
+                    "condition": {
+                        "operator": "contains",
+                        "left": {
+                            "object": "originalQuery"
+                        },
+                        "right": "rfp"
+                    }
+                }
+            },
+            "feature": "queryParamOverride",
+            "detailed": {
+                "partialMatchThreshold": "1"
+            },
+            "ready": false,
+            "description": "",
+            "definition": "override query partialMatchThreshold:\"1\"",
+            "childrenCount": 0
+        }
+    },
+    {
+        "resourceName": "override_query_partialMatchThreshold:\"2\"_HdGF4y",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community_syxdOx }}"
+        },
+        "model": {
+            "feature": "queryParamOverride",
+            "detailed": {
+                "partialMatchThreshold": "2"
+            },
+            "ready": false,
+            "description": "",
+            "definition": "override query partialMatchThreshold:\"2\"",
+            "childrenCount": 0
+        }
+    }
+]

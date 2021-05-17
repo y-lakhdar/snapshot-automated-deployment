@@ -1,0 +1,17 @@
+{
+  "resourceName": "ART_-_SN_rIHPQx",
+  "parents": {},
+  "model": {
+    "commonFilter": "",
+    "commandLineParameters": [],
+    "intervalUnit": "WEEK",
+    "exportOffset": "PT0S",
+    "exportPeriod": "P3M",
+    "modelName": "generated_a4889095c30e6735a983dcabcdbc82a1",
+    "searchEventFilter": "",
+    "modelDisplayName": "ART - SN",
+    "customEventFilter": "",
+    "engineId": "topclicks",
+    "intervalTime": 1
+  }
+}

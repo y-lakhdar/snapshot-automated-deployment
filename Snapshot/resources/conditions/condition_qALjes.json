@@ -1,0 +1,8 @@
+{
+  "resourceName": "when_$context[UserRole]_is_\"sales-rep\"_qALjes",
+  "parents": {},
+  "model": {
+    "description": "",
+    "definition": "when $context[UserRole] is \"sales-rep\""
+  }
+}

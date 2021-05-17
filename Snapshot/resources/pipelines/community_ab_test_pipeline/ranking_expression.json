@@ -1,0 +1,189 @@
+[
+    {
+        "resourceName": "@connectortype==LithiumCrawler_xsDC1O",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "constant": false,
+            "kind": "ranking_expression",
+            "description": "",
+            "targets": [
+                {
+                    "queryExpression": "@connectortype==LithiumCrawler"
+                }
+            ],
+            "enabled": true,
+            "defaultMatchOperator": {
+                "kind": "is"
+            },
+            "predicates": [],
+            "applyToEveryResult": false,
+            "rankingModifier": -75,
+            "name": "@connectortype==LithiumCrawler",
+            "migrated": false
+        }
+    },
+    {
+        "resourceName": "@connectortype==YouTubeCrawler_WGIfFx",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "constant": false,
+            "kind": "ranking_expression",
+            "description": "",
+            "targets": [
+                {
+                    "queryExpression": "@connectortype==YouTubeCrawler"
+                }
+            ],
+            "enabled": true,
+            "defaultMatchOperator": {
+                "kind": "is"
+            },
+            "predicates": [],
+            "condition": {
+                "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context[UserRole]_is_\"new-customer\"_dBwV0J }}"
+            },
+            "applyToEveryResult": false,
+            "rankingModifier": 250,
+            "name": "@connectortype==YouTubeCrawler",
+            "migrated": false
+        }
+    },
+    {
+        "resourceName": "@limessageissolution=\"False\"_aVQFV3",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "constant": false,
+            "kind": "ranking_expression",
+            "description": "",
+            "targets": [
+                {
+                    "queryExpression": "@limessageissolution=\"False\""
+                }
+            ],
+            "enabled": true,
+            "defaultMatchOperator": {
+                "kind": "is"
+            },
+            "predicates": [],
+            "applyToEveryResult": false,
+            "rankingModifier": -100,
+            "name": "@limessageissolution=\"False\"",
+            "migrated": false
+        }
+    },
+    {
+        "resourceName": "@limessageissolution=\"True\"_3V6EuS",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "constant": false,
+            "kind": "ranking_expression",
+            "description": "",
+            "targets": [
+                {
+                    "queryExpression": "@limessageissolution=\"True\""
+                }
+            ],
+            "enabled": true,
+            "defaultMatchOperator": {
+                "kind": "is"
+            },
+            "predicates": [],
+            "applyToEveryResult": false,
+            "rankingModifier": 100,
+            "name": "@limessageissolution=\"True\"",
+            "migrated": false
+        }
+    },
+    {
+        "resourceName": "@objecttypename==File_fujUvc",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "constant": false,
+            "kind": "ranking_expression",
+            "description": "",
+            "targets": [
+                {
+                    "queryExpression": "@objecttypename==File"
+                }
+            ],
+            "enabled": true,
+            "defaultMatchOperator": {
+                "kind": "is"
+            },
+            "predicates": [],
+            "condition": {
+                "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context[UserRole]_is_\"sales-rep\"_qALjes }}"
+            },
+            "applyToEveryResult": false,
+            "rankingModifier": 250,
+            "name": "@objecttypename==File",
+            "migrated": false
+        }
+    },
+    {
+        "resourceName": "@urihash==\"j3zQL8QJqwwjE25T\"_V6FaKs",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "constant": false,
+            "kind": "ranking_expression",
+            "description": "",
+            "targets": [
+                {
+                    "queryExpression": "@urihash==\"j3zQL8QJqwwjE25T\""
+                }
+            ],
+            "enabled": true,
+            "defaultMatchOperator": {
+                "kind": "is"
+            },
+            "predicates": [],
+            "condition": {
+                "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context_[subject]_contains_\"Walking_dead_\"_0aUPUu }}"
+            },
+            "applyToEveryResult": false,
+            "rankingModifier": 1000,
+            "name": "@urihash==\"j3zQL8QJqwwjE25T\"",
+            "migrated": false
+        }
+    },
+    {
+        "resourceName": "blaze_2uDscD",
+        "parents": {
+            "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+        },
+        "model": {
+            "constant": false,
+            "kind": "ranking_expression",
+            "description": "",
+            "targets": [
+                {
+                    "queryExpression": "blaze"
+                }
+            ],
+            "enabled": true,
+            "defaultMatchOperator": {
+                "kind": "is"
+            },
+            "predicates": [],
+            "condition": {
+                "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context[demoscenario]_is_true_uM4YBv }}"
+            },
+            "applyToEveryResult": false,
+            "rankingModifier": 250,
+            "name": "blaze",
+            "migrated": false
+        }
+    }
+]

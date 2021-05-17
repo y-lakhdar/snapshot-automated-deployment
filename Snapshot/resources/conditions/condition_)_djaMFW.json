@@ -1,0 +1,8 @@
+{
+  "resourceName": "when_(_(_$searchHub_contains_\"x_searchpage_speedbit\"_or_$searchHub_contains_\"speedbit-community-enterprise\"_)_and_$referrer_contains_\"blaze\"_or_$context_[productOwned]_contains_\"Blaze\"_)_djaMFW",
+  "parents": {},
+  "model": {
+    "description": "",
+    "definition": "when ( ( $searchHub contains \"x_searchpage_speedbit\" or $searchHub contains \"speedbit-community-enterprise\" ) and $referrer contains \"blaze\" or $context [productOwned] contains \"Blaze\" )"
+  }
+}

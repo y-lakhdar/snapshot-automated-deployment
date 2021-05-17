@@ -1,0 +1,17 @@
+{
+  "resourceName": "CommunityDNE_5Av97q",
+  "parents": {},
+  "model": {
+    "commonFilter": "",
+    "commandLineParameters": [],
+    "intervalUnit": "MONTH",
+    "viewEventFilter": "",
+    "exportPeriod": "P3M",
+    "modelName": "bec30ba1_6651_4d7f_b36d_eb27bea2b4d3",
+    "searchEventFilter": "",
+    "modelDisplayName": "CommunityDNE",
+    "customEventFilter": "",
+    "engineId": "facetsense",
+    "intervalTime": 1
+  }
+}

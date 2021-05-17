@@ -1,0 +1,8 @@
+{
+  "resourceName": "when_(_$query_contains_\"How_to_begin_working_out\"_or_$query_contains_\"How_do_I_workout\"_or_$query_contains_\"How_do_I_begin_workout\"_or_$query_contains_\"How_do_I_begin_working_out\"_)_KvrI2w",
+  "parents": {},
+  "model": {
+    "description": "",
+    "definition": "when ( $query contains \"How to begin working out\" or $query contains \"How do I workout\" or $query contains \"How do I begin workout\" or $query contains \"How do I begin working out\" )"
+  }
+}
