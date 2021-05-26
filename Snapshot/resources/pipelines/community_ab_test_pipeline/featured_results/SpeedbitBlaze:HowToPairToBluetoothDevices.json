@@ -1,0 +1,38 @@
+{
+  "resourceName": "Speedbit_Blaze:_How_to_Pair_to_Bluetooth_Devices_q3dDoq",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "description": "",
+    "matchQuery": false,
+    "targets": [
+      {
+        "uniqueId": "cc488ddc0d0011d7e255259bfe901e542992ef763d9ce6be5feeca089c2e"
+      }
+    ],
+    "enabled": true,
+    "matchAdvancedQuery": false,
+    "defaultMatchOperator": {
+      "is": {}
+    },
+    "predicates": [
+      {
+        "basicQueryExpression": "pair",
+        "matchOperator": {
+          "contains": {}
+        },
+        "locale": {
+          "all": {}
+        }
+      }
+    ],
+    "condition": {
+      "reference": "{{ QUERY_PIPELINE_CONDITION.when_(_(_$searchHub_contains_\"x_searchpage_speedbit\"_or_$searchHub_contains_\"speedbit-community-enterprise\"_)_and_$referrer_contains_\"blaze\"_or_$context_[productOwned]_contains_\"Blaze\"_)_djaMFW }}"
+    },
+    "includeInFacets": false,
+    "name": "Speedbit Blaze: How to Pair to Bluetooth Devices",
+    "migrated": false
+  },
+  "resourceType": "FEATURED_RESULT"
+}

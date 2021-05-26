@@ -1,0 +1,28 @@
+{
+  "resourceName": "Blaze_Watch_Quick_Start_Instructions_Rr044d",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "description": "",
+    "matchQuery": false,
+    "targets": [
+      {
+        "queryExpression": "@sfarticlenumber==000001015"
+      }
+    ],
+    "enabled": true,
+    "matchAdvancedQuery": false,
+    "defaultMatchOperator": {
+      "is": {}
+    },
+    "predicates": [],
+    "condition": {
+      "reference": "{{ QUERY_PIPELINE_CONDITION.when_(_$context_[demointerests]_contains_\"Blaze\"_)_hIoWnS }}"
+    },
+    "includeInFacets": false,
+    "name": "Blaze Watch Quick Start Instructions",
+    "migrated": false
+  },
+  "resourceType": "FEATURED_RESULT"
+}

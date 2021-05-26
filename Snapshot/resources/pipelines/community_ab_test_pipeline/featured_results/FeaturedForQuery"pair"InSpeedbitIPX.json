@@ -1,0 +1,44 @@
+{
+  "resourceName": "Featured_for_query_\"pair\"_in_Speedbit_IPX_3P2zQi",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "description": "",
+    "matchQuery": false,
+    "targets": [
+      {
+        "queryExpression": "@sfarticlenumber==000001019"
+      },
+      {
+        "uniqueId": "3589e08ae06dc93927c4bef03b85a5c1aaa5f232"
+      },
+      {
+        "uniqueId": "9faced2b25fac0cd9c7cff06ae24b5559e2a5d9a183cb9219c9664c3b7e6"
+      }
+    ],
+    "enabled": true,
+    "matchAdvancedQuery": false,
+    "defaultMatchOperator": {
+      "is": {}
+    },
+    "predicates": [
+      {
+        "basicQueryExpression": "pair",
+        "matchOperator": {
+          "contains": {}
+        },
+        "locale": {
+          "all": {}
+        }
+      }
+    ],
+    "condition": {
+      "reference": "{{ QUERY_PIPELINE_CONDITION.when_$searchHub_is_\"mySpeedbit\"_OtbjLX }}"
+    },
+    "includeInFacets": false,
+    "name": "Featured for query \"pair\" in Speedbit IPX",
+    "migrated": false
+  },
+  "resourceType": "FEATURED_RESULT"
+}

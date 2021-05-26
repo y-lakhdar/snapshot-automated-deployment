@@ -1,0 +1,40 @@
+{
+  "resourceName": "Default_recommendations_for_IPX_iUl9zu",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "description": "",
+    "matchQuery": false,
+    "targets": [
+      {
+        "queryExpression": "@sfarticlenumber==000001022"
+      },
+      {
+        "uniqueId": "1a366a8d8b1f9e8e3f95968b3a53bccee440d4101c0f0a56350e7b86914d"
+      },
+      {
+        "uniqueId": "59fbc9d72e9d3e96de09df07fb04fd921cb2c90d1ac7534a9de0fca880e5"
+      },
+      {
+        "queryExpression": "@sfarticlenumber==000001015"
+      },
+      {
+        "uniqueId": "a614606fb3aeffa96693dbde0354e213e30e655c972e2a0daadbef16137e"
+      }
+    ],
+    "enabled": true,
+    "matchAdvancedQuery": false,
+    "defaultMatchOperator": {
+      "is": {}
+    },
+    "predicates": [],
+    "condition": {
+      "reference": "{{ QUERY_PIPELINE_CONDITION.when_$searchHub_is_\"mySpeedbit\"_OtbjLX }}"
+    },
+    "includeInFacets": false,
+    "name": "Default recommendations for IPX",
+    "migrated": false
+  },
+  "resourceType": "FEATURED_RESULT"
+}

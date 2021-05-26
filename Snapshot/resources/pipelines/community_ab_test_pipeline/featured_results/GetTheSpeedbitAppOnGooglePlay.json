@@ -1,0 +1,28 @@
+{
+  "resourceName": "Get_the_Speedbit_App_on_Google_Play_tWXrWm",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "description": "",
+    "matchQuery": false,
+    "targets": [
+      {
+        "queryExpression": "@sfarticlenumber==000001014"
+      }
+    ],
+    "enabled": true,
+    "matchAdvancedQuery": false,
+    "defaultMatchOperator": {
+      "is": {}
+    },
+    "predicates": [],
+    "condition": {
+      "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context[demoscenario]_is_true_uM4YBv }}"
+    },
+    "includeInFacets": false,
+    "name": "Get the Speedbit App on Google Play",
+    "migrated": false
+  },
+  "resourceType": "FEATURED_RESULT"
+}

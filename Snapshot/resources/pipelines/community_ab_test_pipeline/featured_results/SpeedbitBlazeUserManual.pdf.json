@@ -1,0 +1,38 @@
+{
+  "resourceName": "Speedbit_Blaze_User_Manual.pdf_Ej3BEX",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "description": "",
+    "matchQuery": false,
+    "targets": [
+      {
+        "uniqueId": "c7d5472c41e43005e70008a81b6deb49820686a4b722b9ed2e68f52ac56f"
+      }
+    ],
+    "enabled": true,
+    "matchAdvancedQuery": false,
+    "defaultMatchOperator": {
+      "is": {}
+    },
+    "predicates": [
+      {
+        "basicQueryExpression": "pair",
+        "matchOperator": {
+          "contains": {}
+        },
+        "locale": {
+          "all": {}
+        }
+      }
+    ],
+    "condition": {
+      "reference": "{{ QUERY_PIPELINE_CONDITION.when_(_(_$searchHub_contains_\"x_searchpage_speedbit\"_or_$searchHub_contains_\"speedbit-community-enterprise\"_)_and_$referrer_contains_\"blaze\"_or_$context_[productOwned]_contains_\"Blaze\"_)_djaMFW }}"
+    },
+    "includeInFacets": false,
+    "name": "Speedbit Blaze User Manual.pdf",
+    "migrated": false
+  },
+  "resourceType": "FEATURED_RESULT"
+}

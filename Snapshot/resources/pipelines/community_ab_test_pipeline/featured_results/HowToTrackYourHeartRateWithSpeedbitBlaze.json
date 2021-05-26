@@ -1,0 +1,44 @@
+{
+  "resourceName": "How_to_track_your_heart_rate_with_Speedbit_Blaze_Mbwn3N",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "description": "",
+    "matchQuery": false,
+    "targets": [
+      {
+        "uniqueId": "6afd92ea4053668590ce651b492c4e7398cb497c0ea32d79e380cf7928bb"
+      },
+      {
+        "uniqueId": "55c8e99aaf72b4d9f279f5e398a6bad3367950ff"
+      },
+      {
+        "uniqueId": "f5e1bcb9e207adefb315be107e51ec857340a3187a92912f5066394787a5"
+      }
+    ],
+    "enabled": true,
+    "matchAdvancedQuery": true,
+    "defaultMatchOperator": {
+      "is": {}
+    },
+    "predicates": [
+      {
+        "basicQueryExpression": "heart rate",
+        "matchOperator": {
+          "contains": {}
+        },
+        "locale": {
+          "all": {}
+        }
+      }
+    ],
+    "condition": {
+      "reference": "{{ QUERY_PIPELINE_CONDITION.when_(_$searchHub_is_\"x_searchpage_speedbit\"_or_$searchHub_is_\"speedbit-community-enterprise\"_)_zkXcPy }}"
+    },
+    "includeInFacets": false,
+    "name": "How to track your heart rate with Speedbit Blaze",
+    "migrated": false
+  },
+  "resourceType": "FEATURED_RESULT"
+}

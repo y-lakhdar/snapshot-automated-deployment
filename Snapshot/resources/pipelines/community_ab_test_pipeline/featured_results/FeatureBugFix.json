@@ -1,0 +1,34 @@
+{
+  "resourceName": "Feature_bug_fix_hedP3z",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "matchAdvancedQuery": true,
+    "defaultMatchOperator": {
+      "is": {}
+    },
+    "predicates": [
+      {
+        "basicQueryExpression": "error 123",
+        "matchOperator": {
+          "is": {}
+        },
+        "locale": {
+          "all": {}
+        }
+      }
+    ],
+    "includeInFacets": false,
+    "name": "Feature bug fix",
+    "matchQuery": false,
+    "migrated": false,
+    "targets": [
+      {
+        "uniqueId": "cea5207556156be534ac8cd884189bfd845776273f4b059137bed2fada31"
+      }
+    ],
+    "enabled": true
+  },
+  "resourceType": "FEATURED_RESULT"
+}

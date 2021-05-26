@@ -1,0 +1,35 @@
+{
+  "resourceName": "Speedbit_Challenge_FAQ.pdf_XapLl5",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "matchAdvancedQuery": false,
+    "defaultMatchOperator": {
+      "is": {}
+    },
+    "predicates": [
+      {
+        "basicQueryExpression": "dreamforce",
+        "matchOperator": {
+          "is": {}
+        },
+        "locale": {
+          "all": {}
+        }
+      }
+    ],
+    "includeInFacets": false,
+    "name": "Speedbit Challenge FAQ.pdf",
+    "description": "",
+    "matchQuery": false,
+    "migrated": false,
+    "targets": [
+      {
+        "uniqueId": "gmHxx4xDZ9OJwvSL"
+      }
+    ],
+    "enabled": true
+  },
+  "resourceType": "FEATURED_RESULT"
+}

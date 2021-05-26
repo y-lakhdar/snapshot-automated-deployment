@@ -1,0 +1,35 @@
+{
+  "resourceName": "Getting_Started_with_your_New_Speedbit_Blaze_6Z2W0D",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "matchAdvancedQuery": false,
+    "defaultMatchOperator": {
+      "is": {}
+    },
+    "predicates": [
+      {
+        "basicQueryExpression": "How do I workout",
+        "matchOperator": {
+          "contains": {}
+        },
+        "locale": {
+          "all": {}
+        }
+      }
+    ],
+    "includeInFacets": false,
+    "name": "Getting Started with your New Speedbit Blaze",
+    "description": "",
+    "matchQuery": false,
+    "migrated": false,
+    "targets": [
+      {
+        "queryExpression": "@sfarticlenumber==000001022"
+      }
+    ],
+    "enabled": true
+  },
+  "resourceType": "FEATURED_RESULT"
+}
