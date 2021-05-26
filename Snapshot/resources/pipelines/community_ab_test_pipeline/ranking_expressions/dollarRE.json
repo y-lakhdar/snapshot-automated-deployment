@@ -1,0 +1,26 @@
+{
+  "resourceName": "@connectortype==LithiumCrawler_xsDC1O",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "constant": false,
+    "kind": "ranking_expression",
+    "description": "",
+    "targets": [
+      {
+        "queryExpression": "@connectortype==LithiumCrawler"
+      }
+    ],
+    "enabled": true,
+    "defaultMatchOperator": {
+      "kind": "is"
+    },
+    "predicates": [],
+    "applyToEveryResult": false,
+    "rankingModifier": -75,
+    "name": "@connectortype==LithiumCrawler",
+    "migrated": false
+  },
+  "resourceType": "RANKING_EXPRESSION"
+}

@@ -1,0 +1,21 @@
+{
+  "resourceName": "ART_-_SN_eT92tz",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "enableWordCompletion": false,
+    "matchAdvancedExpression": true,
+    "modelId": "{{ ML_MODEL.ART_-_SN_rIHPQx }}",
+    "useAdvancedConfiguration": false,
+    "description": "",
+    "maxRecommendations": 5,
+    "matchBasicExpression": false,
+    "rankingModifier": 250,
+    "exclusive": false,
+    "cacheMaximumAge": "PT10S",
+    "intelligentTermDetection": false,
+    "customQueryParameters": {}
+  },
+  "resourceType": "ML_MODEL_ASSOCIATION"
+}

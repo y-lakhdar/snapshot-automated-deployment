@@ -1,0 +1,23 @@
+{
+  "resourceName": "expand_\"pair\"_to_\"bluetooth\"_gZhnNn",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "feature": "thesaurus",
+    "detailed": {
+      "sub-feature": "expand",
+      "from": [
+        "pair"
+      ],
+      "to": [
+        "bluetooth"
+      ]
+    },
+    "ready": false,
+    "description": "",
+    "definition": "expand \"pair\" to \"bluetooth\"",
+    "childrenCount": 0
+  },
+  "resourceType": "THESAURUS"
+}

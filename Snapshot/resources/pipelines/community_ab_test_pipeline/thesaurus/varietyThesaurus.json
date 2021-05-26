@@ -1,0 +1,21 @@
+{
+  "resourceName": "alias_\"floors\",_\"stairs\"_ujW21z",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "feature": "thesaurus",
+    "detailed": {
+      "sub-feature": "alias",
+      "from": [
+        "floors",
+        "stairs"
+      ]
+    },
+    "ready": false,
+    "description": "",
+    "definition": "alias \"floors\", \"stairs\"",
+    "childrenCount": 0
+  },
+  "resourceType": "THESAURUS"
+}

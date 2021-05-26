@@ -1,0 +1,30 @@
+{
+  "resourceName": "CommunityDNE_l8qZIQ",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "enableWordCompletion": false,
+    "matchAdvancedExpression": false,
+    "modelId": "{{ ML_MODEL.CommunityDNE_5Av97q }}",
+    "useAdvancedConfiguration": false,
+    "maxRecommendations": 0,
+    "matchBasicExpression": false,
+    "rankingModifier": 50,
+    "exclusive": false,
+    "cacheMaximumAge": "PT10S",
+    "intelligentTermDetection": false,
+    "customQueryParameters": {
+      "facetOrdering": {
+        "isEnabled": true
+      },
+      "facetValueOrdering": {
+        "isEnabled": true
+      },
+      "rankingBoost": {
+        "isEnabled": false
+      }
+    }
+  },
+  "resourceType": "ML_MODEL_ASSOCIATION"
+}

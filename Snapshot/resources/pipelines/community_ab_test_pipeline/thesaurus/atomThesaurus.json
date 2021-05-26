@@ -1,0 +1,23 @@
+{
+  "resourceName": "expand_\"watch\"_to_\"blaze\"_SU7iRd",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "feature": "thesaurus",
+    "detailed": {
+      "sub-feature": "expand",
+      "from": [
+        "watch"
+      ],
+      "to": [
+        "blaze"
+      ]
+    },
+    "ready": false,
+    "description": "",
+    "definition": "expand \"watch\" to \"blaze\"",
+    "childrenCount": 0
+  },
+  "resourceType": "THESAURUS"
+}

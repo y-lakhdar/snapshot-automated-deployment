@@ -1,0 +1,23 @@
+{
+  "resourceName": "replace_\"heartrate\"_to_\"heart_rate\"_Mh673X",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "feature": "thesaurus",
+    "detailed": {
+      "sub-feature": "replace",
+      "from": [
+        "heartrate"
+      ],
+      "to": [
+        "heart rate"
+      ]
+    },
+    "ready": false,
+    "description": "",
+    "definition": "replace \"heartrate\" to \"heart rate\"",
+    "childrenCount": 0
+  },
+  "resourceType": "THESAURUS"
+}

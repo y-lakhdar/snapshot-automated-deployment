@@ -1,0 +1,51 @@
+{
+  "resourceName": "execute_notify(\"cancel_subscription\")_uHl9Ls",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "parent": {
+      "id": "{{ QUERY_PIPELINE_CONDITION.when_$query_contains_\"cancel\"_mzrcC8 }}",
+      "description": "",
+      "definition": "when $query contains \"cancel\"",
+      "detailed": {
+        "condition": {
+          "operator": "contains",
+          "left": {
+            "object": "query"
+          },
+          "right": "cancel"
+        }
+      }
+    },
+    "condition": {
+      "id": "{{ QUERY_PIPELINE_CONDITION.when_$query_contains_\"cancel\"_mzrcC8 }}",
+      "description": "",
+      "definition": "when $query contains \"cancel\"",
+      "detailed": {
+        "condition": {
+          "operator": "contains",
+          "left": {
+            "object": "query"
+          },
+          "right": "cancel"
+        }
+      }
+    },
+    "feature": "trigger",
+    "detailed": {
+      "type": "execute",
+      "content": {
+        "name": "notify",
+        "params": [
+          "cancel subscription"
+        ]
+      }
+    },
+    "ready": false,
+    "description": "",
+    "definition": "execute notify(\"cancel subscription\")",
+    "childrenCount": 0
+  },
+  "resourceType": "TRIGGER"
+}

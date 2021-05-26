@@ -1,0 +1,26 @@
+{
+  "resourceName": "@limessageissolution=\"False\"_aVQFV3",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "constant": false,
+    "kind": "ranking_expression",
+    "description": "",
+    "targets": [
+      {
+        "queryExpression": "@limessageissolution=\"False\""
+      }
+    ],
+    "enabled": true,
+    "defaultMatchOperator": {
+      "kind": "is"
+    },
+    "predicates": [],
+    "applyToEveryResult": false,
+    "rankingModifier": -100,
+    "name": "@limessageissolution=\"False\"",
+    "migrated": false
+  },
+  "resourceType": "RANKING_EXPRESSION"
+}

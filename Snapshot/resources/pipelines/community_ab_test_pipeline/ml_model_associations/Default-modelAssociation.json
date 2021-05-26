@@ -1,0 +1,19 @@
+{
+  "resourceName": "default-model_shiEcK",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "enableWordCompletion": false,
+    "matchAdvancedExpression": true,
+    "modelId": "{{ ML_MODEL.default-model_8qTxAb }}",
+    "useAdvancedConfiguration": false,
+    "maxRecommendations": 5,
+    "matchBasicExpression": false,
+    "rankingModifier": 250,
+    "exclusive": false,
+    "cacheMaximumAge": "PT10S",
+    "intelligentTermDetection": false
+  },
+  "resourceType": "ML_MODEL_ASSOCIATION"
+}

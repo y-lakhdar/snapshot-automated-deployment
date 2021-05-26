@@ -1,0 +1,19 @@
+{
+  "resourceName": "stop_\"speedbit\"_uM8442",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "feature": "stop",
+    "detailed": {
+      "words": [
+        "speedbit"
+      ]
+    },
+    "ready": false,
+    "description": "",
+    "definition": "stop \"speedbit\"",
+    "childrenCount": 0
+  },
+  "resourceType": "STOP_WORD"
+}

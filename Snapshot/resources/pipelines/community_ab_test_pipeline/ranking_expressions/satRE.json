@@ -1,0 +1,29 @@
+{
+  "resourceName": "@urihash==\"j3zQL8QJqwwjE25T\"_V6FaKs",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "constant": false,
+    "kind": "ranking_expression",
+    "description": "",
+    "targets": [
+      {
+        "queryExpression": "@urihash==\"j3zQL8QJqwwjE25T\""
+      }
+    ],
+    "enabled": true,
+    "defaultMatchOperator": {
+      "kind": "is"
+    },
+    "predicates": [],
+    "condition": {
+      "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context_[subject]_contains_\"Walking_dead_\"_0aUPUu }}"
+    },
+    "applyToEveryResult": false,
+    "rankingModifier": 1000,
+    "name": "@urihash==\"j3zQL8QJqwwjE25T\"",
+    "migrated": false
+  },
+  "resourceType": "RANKING_EXPRESSION"
+}

@@ -1,0 +1,11 @@
+{
+    "resourceName": "community-A/B-test-mirror_LPurnl",
+    "ResourceType": "QUERY_PIPELINE",
+    "parents": {},
+    "model": {
+        "splitTestEnabled": false,
+        "isDefault": false,
+        "name": "community-A/B-test-mirror",
+        "description": "Salesforce Community pipeline + In-App (My Speedbit)"
+    }
+}

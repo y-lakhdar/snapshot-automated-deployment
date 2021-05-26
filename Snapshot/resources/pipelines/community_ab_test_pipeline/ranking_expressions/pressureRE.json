@@ -1,0 +1,29 @@
+{
+  "resourceName": "@objecttypename==File_fujUvc",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "constant": false,
+    "kind": "ranking_expression",
+    "description": "",
+    "targets": [
+      {
+        "queryExpression": "@objecttypename==File"
+      }
+    ],
+    "enabled": true,
+    "defaultMatchOperator": {
+      "kind": "is"
+    },
+    "predicates": [],
+    "condition": {
+      "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context[UserRole]_is_\"sales-rep\"_qALjes }}"
+    },
+    "applyToEveryResult": false,
+    "rankingModifier": 250,
+    "name": "@objecttypename==File",
+    "migrated": false
+  },
+  "resourceType": "RANKING_EXPRESSION"
+}

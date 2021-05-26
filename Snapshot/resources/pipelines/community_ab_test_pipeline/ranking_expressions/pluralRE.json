@@ -1,0 +1,29 @@
+{
+  "resourceName": "@connectortype==YouTubeCrawler_WGIfFx",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "constant": false,
+    "kind": "ranking_expression",
+    "description": "",
+    "targets": [
+      {
+        "queryExpression": "@connectortype==YouTubeCrawler"
+      }
+    ],
+    "enabled": true,
+    "defaultMatchOperator": {
+      "kind": "is"
+    },
+    "predicates": [],
+    "condition": {
+      "reference": "{{ QUERY_PIPELINE_CONDITION.when_$context[UserRole]_is_\"new-customer\"_dBwV0J }}"
+    },
+    "applyToEveryResult": false,
+    "rankingModifier": 250,
+    "name": "@connectortype==YouTubeCrawler",
+    "migrated": false
+  },
+  "resourceType": "RANKING_EXPRESSION"
+}
