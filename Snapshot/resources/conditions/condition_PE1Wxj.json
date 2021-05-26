@@ -1,8 +1,0 @@
-{
-  "resourceName": "when_$originalQuery_contains_\"rfp\"_PE1Wxj",
-  "parents": {},
-  "model": {
-    "description": "",
-    "definition": "when $originalQuery contains \"rfp\""
-  }
-}

@@ -1,5 +1,6 @@
 {
   "resourceName": "mySpeedbit_d6nZXq",
+  "ResourceType": "ML_MODEL",
   "parents": {},
   "model": {
     "commonFilter": "(originLevel1=~'speedbit-community-enterprise' OR originLevel1=~'mySpeedbit')",

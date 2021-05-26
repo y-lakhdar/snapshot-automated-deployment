@@ -1,5 +1,6 @@
 {
   "resourceName": "when_(_$query_contains_\"How_to_begin_working_out\"_or_$query_contains_\"How_do_I_workout\"_or_$query_contains_\"How_do_I_begin_workout\"_or_$query_contains_\"How_do_I_begin_working_out\"_)_KvrI2w",
+  "ResourceType": "QUERY_PIPELINE_CONDITION",
   "parents": {},
   "model": {
     "description": "",

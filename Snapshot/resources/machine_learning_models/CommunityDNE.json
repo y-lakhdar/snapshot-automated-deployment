@@ -1,5 +1,6 @@
 {
   "resourceName": "CommunityDNE_5Av97q",
+  "ResourceType": "ML_MODEL",
   "parents": {},
   "model": {
     "commonFilter": "",

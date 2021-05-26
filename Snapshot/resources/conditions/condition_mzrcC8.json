@@ -1,8 +1,0 @@
-{
-  "resourceName": "when_$query_contains_\"cancel\"_mzrcC8",
-  "parents": {},
-  "model": {
-    "description": "",
-    "definition": "when $query contains \"cancel\""
-  }
-}

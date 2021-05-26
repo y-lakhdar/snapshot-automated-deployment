@@ -1,8 +1,0 @@
-{
-  "resourceName": "when_$context[UserRole]_is_\"\"_MWI1sq",
-  "parents": {},
-  "model": {
-    "description": "",
-    "definition": "when $context[UserRole] is \"\""
-  }
-}

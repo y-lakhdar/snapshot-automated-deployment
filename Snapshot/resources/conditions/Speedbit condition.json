@@ -1,5 +1,6 @@
 {
   "resourceName": "when_(_(_$searchHub_contains_\"x_searchpage_speedbit\"_or_$searchHub_contains_\"speedbit-community-enterprise\"_)_and_$referrer_contains_\"blaze\"_or_$context_[productOwned]_contains_\"Blaze\"_)_djaMFW",
+  "ResourceType": "QUERY_PIPELINE_CONDITION",
   "parents": {},
   "model": {
     "description": "",

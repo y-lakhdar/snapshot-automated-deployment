@@ -1,5 +1,6 @@
 {
   "resourceName": "when_(_$searchHub_is_\"x_searchpage_speedbit\"_or_$searchHub_is_\"speedbit-community-enterprise\"_)_zkXcPy",
+  "ResourceType": "QUERY_PIPELINE_CONDITION",
   "parents": {},
   "model": {
     "definition": "when ( $searchHub is \"x_searchpage_speedbit\" or $searchHub is \"speedbit-community-enterprise\" )"

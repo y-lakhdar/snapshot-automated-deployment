@@ -1,12 +1,13 @@
 {
-  "resourceName": "connectortype_cEzQGE",
+  "resourceName": "author_q5Qx3k",
+  "ResourceType": "FIELD",
   "parents": {},
   "model": {
     "dateFormat": "",
     "includeInQuery": true,
     "hierarchicalFacet": false,
     "mergeWithLexicon": false,
-    "description": "The type of the connector that retrieved the item.",
+    "description": "The author of the document",
     "useCacheForComputedFacet": false,
     "sort": false,
     "type": "STRING",
@@ -14,12 +15,12 @@
     "multiValueFacet": false,
     "multiValueFacetTokenizers": ";",
     "useCacheForNestedQuery": false,
-    "name": "connectortype",
+    "name": "author",
     "stemming": false,
     "includeInResults": true,
     "ranking": false,
     "useCacheForSort": false,
-    "facet": false,
+    "facet": true,
     "useCacheForNumericQuery": false
   }
 }

@@ -1,5 +1,6 @@
 {
   "resourceName": "default-model_8qTxAb",
+  "ResourceType": "ML_MODEL",
   "parents": {},
   "model": {
     "commonFilter": "",

@@ -1,5 +1,6 @@
 {
   "resourceName": "String_to_Decimal_Converted_7Deg1K",
+  "ResourceType": "EXTENSION",
   "parents": {},
   "model": {
     "name": "String to Decimal Converted",

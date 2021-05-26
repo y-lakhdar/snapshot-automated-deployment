@@ -1,5 +1,6 @@
 {
   "resourceName": "when_$context_[subject]_contains_\"Walking_dead_\"_0aUPUu",
+  "ResourceType": "QUERY_PIPELINE_CONDITION",
   "parents": {},
   "model": {
     "description": "",

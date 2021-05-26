@@ -1,12 +1,13 @@
 {
-  "resourceName": "source_4VNj55",
+  "resourceName": "sfarticlenumber_PnjfPf",
+  "ResourceType": "FIELD",
   "parents": {},
   "model": {
     "dateFormat": "",
     "includeInQuery": true,
     "hierarchicalFacet": false,
     "mergeWithLexicon": false,
-    "description": "Name of the source in which appears the document",
+    "description": "",
     "useCacheForComputedFacet": false,
     "sort": false,
     "type": "STRING",
@@ -14,12 +15,12 @@
     "multiValueFacet": false,
     "multiValueFacetTokenizers": ";",
     "useCacheForNestedQuery": false,
-    "name": "source",
+    "name": "sfarticlenumber",
     "stemming": false,
     "includeInResults": true,
     "ranking": false,
     "useCacheForSort": false,
-    "facet": true,
+    "facet": false,
     "useCacheForNumericQuery": false
   }
 }
