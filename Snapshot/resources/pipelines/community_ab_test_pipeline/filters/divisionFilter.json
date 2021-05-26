@@ -1,0 +1,19 @@
+{
+  "resourceName": "filter_cq_`NOT_@confspacekey==(\"SPEEDT\")`_CfiYj0",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "feature": "filter",
+    "detailed": {
+      "expressions": [
+        "NOT @confspacekey==(\"SPEEDT\")"
+      ]
+    },
+    "ready": false,
+    "description": "",
+    "definition": "filter cq `NOT @confspacekey==(\"SPEEDT\")`",
+    "childrenCount": 0
+  },
+  "resourceType": "FILTER"
+}

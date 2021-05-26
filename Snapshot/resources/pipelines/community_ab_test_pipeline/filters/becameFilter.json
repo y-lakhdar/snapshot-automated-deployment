@@ -1,0 +1,19 @@
+{
+  "resourceName": "filter_cq_`@source==(\"Atlassian_SpeedBit\",_\"Box_Speedbit\",_\"Community\",_\"Community\",_\"Help_Section\",_\"http://www.fitbit.com/\",_\"Jira_SpeedBit\",_\"Salesforce_Content\",_\"Sharepoint_Speedbit\",_\"Speedbit-Enterprise\",_\"Youtube_SpeedBit\")`_CnrgVe",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "feature": "filter",
+    "detailed": {
+      "expressions": [
+        "@source==(\"Atlassian SpeedBit\", \"Box Speedbit\", \"Community\", \"Community\", \"Help Section\", \"http://www.fitbit.com/\", \"Jira SpeedBit\", \"Salesforce Content\", \"Sharepoint Speedbit\", \"Speedbit-Enterprise\", \"Youtube SpeedBit\")"
+      ]
+    },
+    "ready": false,
+    "description": "",
+    "definition": "filter cq `@source==(\"Atlassian SpeedBit\", \"Box Speedbit\", \"Community\", \"Community\", \"Help Section\", \"http://www.fitbit.com/\", \"Jira SpeedBit\", \"Salesforce Content\", \"Sharepoint Speedbit\", \"Speedbit-Enterprise\", \"Youtube SpeedBit\")`",
+    "childrenCount": 0
+  },
+  "resourceType": "FILTER"
+}

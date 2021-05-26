@@ -1,0 +1,19 @@
+{
+  "resourceName": "filter_cq_`NOT_@author==\"Kiley_Pratt\"`_m9Mhnn",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "feature": "filter",
+    "detailed": {
+      "expressions": [
+        "NOT @author==\"Kiley Pratt\""
+      ]
+    },
+    "ready": false,
+    "description": "",
+    "definition": "filter cq `NOT @author==\"Kiley Pratt\"`",
+    "childrenCount": 0
+  },
+  "resourceType": "FILTER"
+}

@@ -1,0 +1,19 @@
+{
+  "resourceName": "filter_cq_`NOT_@sfrecordtypename==\"Parts\"`_DIb8IV",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "feature": "filter",
+    "detailed": {
+      "expressions": [
+        "NOT @sfrecordtypename==\"Parts\""
+      ]
+    },
+    "ready": false,
+    "description": "",
+    "definition": "filter cq `NOT @sfrecordtypename==\"Parts\"`",
+    "childrenCount": 0
+  },
+  "resourceType": "FILTER"
+}

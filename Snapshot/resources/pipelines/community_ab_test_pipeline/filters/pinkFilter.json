@@ -1,0 +1,19 @@
+{
+  "resourceName": "filter_cq_`NOT_@uri=\"Speedbit_-_IT\"`_9G6NNz",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "feature": "filter",
+    "detailed": {
+      "expressions": [
+        "NOT @uri=\"Speedbit - IT\""
+      ]
+    },
+    "ready": false,
+    "description": "",
+    "definition": "filter cq `NOT @uri=\"Speedbit - IT\"`",
+    "childrenCount": 0
+  },
+  "resourceType": "FILTER"
+}
