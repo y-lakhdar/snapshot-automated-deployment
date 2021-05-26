@@ -1,0 +1,17 @@
+{
+  "resourceName": "override_query_partialMatch:true_4rZhEC",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "feature": "queryParamOverride",
+    "detailed": {
+      "partialMatch": true
+    },
+    "ready": false,
+    "description": "",
+    "definition": "override query partialMatch:true",
+    "childrenCount": 0
+  },
+  "resourceType": "QUERY_PARAMETER"
+}

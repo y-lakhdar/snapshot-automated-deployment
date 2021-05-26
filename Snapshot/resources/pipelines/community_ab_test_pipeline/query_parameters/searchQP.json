@@ -1,0 +1,17 @@
+{
+  "resourceName": "override_query_partialMatchThreshold:\"2\"_KvjlBO",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "feature": "queryParamOverride",
+    "detailed": {
+      "partialMatchThreshold": "2"
+    },
+    "ready": false,
+    "description": "",
+    "definition": "override query partialMatchThreshold:\"2\"",
+    "childrenCount": 0
+  },
+  "resourceType": "QUERY_PARAMETER"
+}

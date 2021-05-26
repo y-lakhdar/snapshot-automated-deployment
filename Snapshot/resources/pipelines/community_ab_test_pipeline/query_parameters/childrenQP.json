@@ -1,0 +1,17 @@
+{
+  "resourceName": "override_query_partialMatchKeywords:3_Zm2tqX",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "feature": "queryParamOverride",
+    "detailed": {
+      "partialMatchKeywords": 3
+    },
+    "ready": false,
+    "description": "",
+    "definition": "override query partialMatchKeywords:3",
+    "childrenCount": 0
+  },
+  "resourceType": "QUERY_PARAMETER"
+}

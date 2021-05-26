@@ -1,0 +1,45 @@
+{
+  "resourceName": "override_query_partialMatchThreshold:\"1\"_HyoJM2",
+  "parents": {
+    "queryPipelineId": "{{ QUERY_PIPELINE.community-A/B-test-mirror_LPurnl }}"
+  },
+  "model": {
+    "parent": {
+      "id": "{{ QUERY_PIPELINE_CONDITION.when_$originalQuery_contains_\"rfp\"_PE1Wxj }}",
+      "description": "",
+      "definition": "when $originalQuery contains \"rfp\"",
+      "detailed": {
+        "condition": {
+          "operator": "contains",
+          "left": {
+            "object": "originalQuery"
+          },
+          "right": "rfp"
+        }
+      }
+    },
+    "condition": {
+      "id": "{{ QUERY_PIPELINE_CONDITION.when_$originalQuery_contains_\"rfp\"_PE1Wxj }}",
+      "description": "",
+      "definition": "when $originalQuery contains \"rfp\"",
+      "detailed": {
+        "condition": {
+          "operator": "contains",
+          "left": {
+            "object": "originalQuery"
+          },
+          "right": "rfp"
+        }
+      }
+    },
+    "feature": "queryParamOverride",
+    "detailed": {
+      "partialMatchThreshold": "1"
+    },
+    "ready": false,
+    "description": "",
+    "definition": "override query partialMatchThreshold:\"1\"",
+    "childrenCount": 0
+  },
+  "resourceType": "QUERY_PARAMETER"
+}
